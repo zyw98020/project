@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>番茄钟</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">番茄钟</h1>
+    <div id="timer-display" class="display-4 text-center">25:00</div>
+    <div class="d-flex justify-content-center mt-2">
+        <button id="start-pomodoro" class="btn btn-success me-2">开始</button>
+        <button id="pause-pomodoro" class="btn btn-warning me-2" disabled>暂停</button>
+        <button id="reset-pomodoro" class="btn btn-danger" disabled>重置</button>
+    </div>
+</div>
+
+<!-- 引入必要的JS库 -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
